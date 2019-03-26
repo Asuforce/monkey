@@ -4,24 +4,24 @@ type TokenType string
 
 type Token struct {
 	Type    TokenType
-	Literal String
+	Literal string
 }
 
-const {
+const (
 	ILLEGAL = "ILLEGAL"
-	EOF = "EOF"
+	EOF     = "EOF"
 
 	INDENT = "INDENT"
-	INT = "INT"
+	INT    = "INT"
 
 	ASSIGN = "="
-	PLUS = "+"
+	PLUS   = "+"
 
-	CONMA = ","
+	COMMA     = ","
 	SEMICOLON = ";"
 
 	LPAREN = "("
 	RPAREN = ")"
 	LBRACE = "{"
 	RBRACE = "}"
-}
+)
